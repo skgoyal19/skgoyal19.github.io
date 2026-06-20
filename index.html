@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shivam Kumar Goel | Data Scientist & AI Engineer</title>
+<meta name="description" content="Portfolio of Shivam Kumar Goel - Data Scientist specializing in LLMs, RAG, NLP and Generative AI." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Animated network background -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="logo">&lt;Shivam<span class="dot">.</span>AI/&gt;</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <div class="hero-content">
+    <p class="hero-greeting"><span class="bracket">{</span> Hello World, I'm <span class="bracket">}</span></p>
+    <h1 class="hero-name">Shivam Kumar Goel</h1>
+    <h2 class="hero-role">
+      <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+    </h2>
+    <p class="hero-desc">
+      Data Scientist with 2+ years of experience building production-grade ML & Generative AI
+      solutions across defence, consulting, and enterprise environments — specialized in
+      <strong>LLM fine-tuning</strong>, <strong>RAG pipelines</strong>, and <strong>NLP</strong>.
+    </p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+      <a href="assets/Shivam_Kumar_Goel_Resume.pdf" class="btn btn-outline" download><i class="fa-solid fa-download"></i> Download CV</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://www.linkedin.com/in/19skgoyal/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:19.skgoyal@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="section-tag">// 01. About Me</p>
+    <h2 class="section-title">Who I Am</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a Data Scientist who turns complex data and language models into real business
+          outcomes. Over the past 2+ years, I've worked across <strong>defence research (DRDO)</strong>,
+          <strong>consulting</strong>, and <strong>enterprise analytics</strong>, building everything
+          from anomaly-detection ML pipelines for aircraft telemetry to production-grade
+          <strong>RAG systems</strong> powered by LLMs and vector databases.
+        </p>
+        <p>
+          I enjoy the full lifecycle of a data problem — from messy raw data and ETL pipelines,
+          to model fine-tuning, to shipping insights that leadership actually uses. My work has
+          delivered measurable impact: a <strong>30% drop</strong> in preventive maintenance costs
+          at DRDO, a <strong>40% reduction</strong> in manual reporting time via RAG automation,
+          and a <strong>10–15% lift</strong> in targeted sales performance at Concentrix.
+        </p>
+        <div class="about-stats">
+          <div class="stat-card">
+            <h3 class="counter" data-target="2">0</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat-card">
+            <h3 class="counter" data-target="4">0</h3>
+            <p>Organizations</p>
+          </div>
+          <div class="stat-card">
+            <h3 class="counter" data-target="2">0</h3>
+            <p>Major Projects</p>
+          </div>
+          <div class="stat-card">
+            <h3 class="counter" data-target="450">0</h3>
+            <p>Students Taught</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="code-card">
+          <div class="code-card-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="code-title">profile.py</span>
+          </div>
+          <pre class="code-body"><code><span class="kw">class</span> <span class="cl">DataScientist</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(self):
+        self.name = <span class="str">"Shivam Kumar Goel"</span>
+        self.role = <span class="str">"Data Scientist / AI Engineer"</span>
+        self.skills = [
+            <span class="str">"LLMs"</span>, <span class="str">"RAG"</span>,
+            <span class="str">"NLP"</span>, <span class="str">"Python"</span>,
+            <span class="str">"AWS"</span>
+        ]
+        self.passion = <span class="str">"Turning data into impact"</span>
+
+    <span class="kw">def</span> <span class="fn">say_hello</span>(self):
+        <span class="kw">return</span> <span class="str">f"Let's build something great!"</span></code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="section-tag">// 02. Tech Stack</p>
+    <h2 class="section-title">Skills & Tools</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+        <h3>Programming</h3>
+        <div class="tags"><span>Python</span><span>SQL</span><span>BigQuery</span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>Machine Learning & AI</h3>
+        <div class="tags"><span>Scikit-learn</span><span>TensorFlow</span><span>Keras</span><span>Hugging Face</span><span>Fine-tuning</span><span>Clustering</span><span>Feature Engineering</span><span>A/B Testing</span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>LLMs & GenAI</h3>
+        <div class="tags"><span>RAG</span><span>Prompt Engineering</span><span>LangChain</span><span>LlamaIndex</span><span>NLTK</span><span>FAISS</span><span>Chroma</span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-diagram-project"></i></div>
+        <h3>Data Engineering</h3>
+        <div class="tags"><span>ETL Pipelines</span><span>NumPy</span><span>Pandas</span><span>PySpark</span><span>BeautifulSoup</span><span>Scrapy</span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+        <h3>Databases</h3>
+        <div class="tags"><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+        <h3>Cloud & DevOps</h3>
+        <div class="tags"><span>AWS S3</span><span>EC2</span><span>Lambda</span><span>Docker</span><span>Linux</span><span>Git</span><span>Jira</span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+        <h3>Visualization</h3>
+        <div class="tags"><span>Tableau</span><span>Power BI</span><span>Looker Studio</span><span>Plotly</span><span>Matplotlib</span><span>Seaborn</span><span>Streamlit</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="container">
+    <p class="section-tag">// 03. Career Path</p>
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Jan 2025 — May 2026</span>
+          <h3>Data Scientist</h3>
+          <h4>Concentrix Daksh Services India Pvt. Ltd.</h4>
+          <ul>
+            <li>Designed and deployed a production <strong>RAG pipeline</strong> integrating LLMs with external knowledge bases, reducing manual report generation time by ~40%.</li>
+            <li>Processed and analyzed 1M+ sales records using Python and SQL, contributing to a 10–15% improvement in targeted sales strategies.</li>
+            <li>Built and maintained ETL pipelines migrating data from staging to permanent databases.</li>
+            <li>Applied NLP techniques (entity extraction, sentiment analysis) to unstructured sales data.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Aug 2024 — Oct 2024</span>
+          <h3>Data Scientist Associate</h3>
+          <h4>Blackcoffer Consulting</h4>
+          <ul>
+            <li>Curated and annotated 250+ coding and math problems used to fine-tune LLMs, improving reasoning benchmark accuracy.</li>
+            <li>Developed automated web scraping pipelines (BeautifulSoup, Scrapy) for real-time game score analytics dashboards.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Jul 2023 — May 2024</span>
+          <h3>Assistant Professor</h3>
+          <h4>Noida Institute of Engineering and Technology</h4>
+          <ul>
+            <li>Taught Python, Machine Learning, and Data Analysis to 450+ undergraduate students.</li>
+            <li>Redesigned curriculum, leading to a 15% improvement in student performance outcomes.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Sep 2022 — Mar 2023</span>
+          <h3>Project Engineer</h3>
+          <h4>Defence Research & Development Organisation (DRDO)</h4>
+          <ul>
+            <li>Built a full-stack app (Streamlit + MongoDB + Plotly) managing 100+ aircraft configurations, improving maintenance tracking efficiency by 50%.</li>
+            <li>Developed an unsupervised ML model to detect anomalous flight patterns, driving a 30% reduction in preventive maintenance costs.</li>
+            <li>Implemented rule-based visualizations for 500+ aircraft parameters.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Aug 2019 — Mar 2020</span>
+          <h3>Assistant Professor</h3>
+          <h4>Bhagwati Institute of Technology and Science</h4>
+          <ul>
+            <li>Analyzed diesel engine combustion and emission data to identify optimal biodiesel-diesel blends.</li>
+            <li>Performed EDA and predictive modeling on engine performance and emission metrics.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <p class="section-tag">// 04. Selected Work</p>
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-card-top">
+          <i class="fa-solid fa-plane"></i>
+          <span class="project-period">Sep 2022 – Mar 2023</span>
+        </div>
+        <h3>Post-Flight Data Analysis Application</h3>
+        <p>
+          End-to-end app handling 100+ aircraft configurations with real-time rule-based analysis
+          across 500+ flight parameters. Applied PCA-based dimensionality reduction and clustering
+          (DBSCAN, K-Means) to flag anomalous flights, plus automated HTML compliance reports for
+          50+ rule categories.
+        </p>
+        <div class="tags"><span>Python</span><span>Streamlit</span><span>MongoDB</span><span>Plotly</span><span>PCA</span><span>DBSCAN</span><span>K-Means</span></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-top">
+          <i class="fa-solid fa-comments"></i>
+          <span class="project-period">Jan 2025 – May 2025</span>
+        </div>
+        <h3>RAG-Based Business Intelligence Pipeline</h3>
+        <p>
+          Architected a Retrieval-Augmented Generation system using LLMs + vector search to answer
+          natural language queries over internal business data. Integrated document chunking,
+          embedding generation, and semantic retrieval for higher contextual accuracy of automated
+          reports.
+        </p>
+        <div class="tags"><span>LLMs</span><span>RAG</span><span>Vector DB</span><span>LangChain</span><span>Embeddings</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section" id="education">
+  <div class="container">
+    <p class="section-tag">// 05. Academic Background</p>
+    <h2 class="section-title">Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h3>M.Tech</h3>
+        <h4>Defence Institute Of Advanced Technology, Pune</h4>
+        <span>Aug 2021 — May 2023</span>
+      </div>
+      <div class="edu-card">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h3>B.Tech</h3>
+        <h4>Noida Institute of Engineering and Technology, Greater Noida</h4>
+        <span>Aug 2014 — Jul 2018</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section section-alt" id="contact">
+  <div class="container">
+    <p class="section-tag">// 06. Get In Touch</p>
+    <h2 class="section-title">Let's Connect</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>I'm always open to discussing data science, AI projects, or new opportunities. Reach out!</p>
+        <a class="contact-link" href="mailto:19.skgoyal@gmail.com"><i class="fa-solid fa-envelope"></i> 19.skgoyal@gmail.com</a>
+        <a class="contact-link" href="tel:+919717379687"><i class="fa-solid fa-phone"></i> +91-9717379687</a>
+        <a class="contact-link" href="https://www.linkedin.com/in/19skgoyal/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> linkedin.com/in/19skgoyal</a>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        <p class="form-note">* This form is static — connect a service like Formspree to receive messages (see README).</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Designed & Built by Shivam Kumar Goel &copy; <span id="year"></span></p>
+</footer>
+
+<a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+<script src="script.js"></script>
+</body>
+</html>
