@@ -86,14 +86,6 @@ window.addEventListener('scroll', () => {
 // ===== FOOTER YEAR =====
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// ===== CONTACT FORM (static demo) =====
-const contactForm = document.getElementById('contactForm');
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  alert('Thanks for reaching out! This is a static demo form — connect Formspree or a backend to receive real messages. Meanwhile, email me directly at 19.skgoyal@gmail.com');
-  contactForm.reset();
-});
-
 // ===== ANIMATED NETWORK BACKGROUND (Canvas) =====
 const canvas = document.getElementById('bg-canvas');
 const ctx = canvas.getContext('2d');
